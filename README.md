@@ -6,6 +6,4 @@ Animal Crossing type game. this game uses glfw(OpenGL) library this is required 
 
 ## Goals
 
-Implement controls \n
-Death Mechanics \n
-Enemies Mechanics \n
+
