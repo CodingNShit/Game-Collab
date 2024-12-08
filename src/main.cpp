@@ -4,7 +4,7 @@
 
 int main(void) {
   Renderer renderer(1280, 720);
-  Player player(400, 300, 40, 40);
+  Player player(640, 360, 40, 40);
 
   bool running = true;
   SDL_Event event;
