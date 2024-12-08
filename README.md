@@ -2,7 +2,7 @@
 
 ## Theme/Genre
 
-Animal Crossing type game. this game uses GLFW (OpenGL) library this is required to compile and run the game.
+Top-Down type game. this game uses SDL2 (Simple DirectMedia Layer) library this is required to compile the game.
 
 ## Goals
 
