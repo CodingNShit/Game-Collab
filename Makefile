@@ -1,12 +1,12 @@
 # Compiler and Flags
-CXX = g++
+CXX = g++ # Or mingw64-gcc
 CXXFLAGS = -Wall -g
 LDFLAGS = -lSDL2 -lSDL2_image
 
 # Files and Targets
 SRC = $(wildcard src/*.cpp)
 OBJ = $(patsubst src/%.cpp, build/%.o, $(SRC))
-OUT = TDS Game.exe
+OUT = "TDS Game.exe"  # Windows executable file
 
 # Build the executable
 $(OUT): $(OBJ)
@@ -19,7 +19,7 @@ build/%.o: src/%.cpp
 
 # Run the program
 run: $(OUT)
-	./$(OUT)
+	./$(OUT)  # This works if you're running from MSYS2/MinGW shell
 
 # Clean up build files
 clean:
