@@ -6,7 +6,7 @@ LDFLAGS = -lSDL2 -lSDL2_image
 # Files and Targets
 SRC = $(wildcard src/*.cpp)
 OBJ = $(patsubst src/%.cpp, build/%.o, $(SRC))
-OUT = Game-Collab
+OUT = Game-Collab.exe
 
 # Build the executable
 $(OUT): $(OBJ)
